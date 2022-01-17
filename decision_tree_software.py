@@ -58,7 +58,7 @@ def init():
         
         cross_validate(diabetes_df, trained_tree, target_feature, folds)
         
-        print("Program complete, exiting...")
+        input("Program complete, press ENTER to close...")
         break 
 
 class AttributeTest:
